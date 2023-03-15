@@ -11,12 +11,10 @@ let section = document.querySelectorAll("section");
 let navLinks = document.querySelectorAll("header .navbar a");
 
 window.onscroll = () => {
-
-
   menu.classList.remove("fa-circle-xmark");
   navbar.classList.remove("active");
 
-  section.forEach(sec =>{
+  section.forEach((sec) => {
     let top = window.scrollY;
     let height = sec.offsetHeight;
     let offset = sec.offsetTop - 150;
@@ -30,7 +28,7 @@ window.onscroll = () => {
           .classList.add("active");
       });
     }
-  })
+  });
 };
 
 document.querySelector("#search-icon").onclick = () => {
@@ -59,8 +57,7 @@ var swiper = new Swiper(".home-slider", {
   loop: true,
 });
 
-
-// Review slider 
+// Review slider
 var swiper = new Swiper(".review-slider", {
   spaceBetween: 20,
   centeredSlides: true,
@@ -86,12 +83,11 @@ var swiper = new Swiper(".review-slider", {
   loop: true,
 });
 
-
 function loader() {
-  document.querySelector(".loader-container").classList.add("fade-out")
+  document.querySelector(".loader-container").classList.add("fade-out");
 }
 
-function fadeOut(){
+function fadeOut() {
   setInterval(loader, 3000);
 }
 

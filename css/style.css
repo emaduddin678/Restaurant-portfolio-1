@@ -14,7 +14,7 @@
 html {
   font-size: 62.5%;
   overflow-x: hidden;
-  scroll-padding-top: 5.5rem; 
+  scroll-padding-top: 5.5rem;
   scroll-behavior: smooth;
 }
 
@@ -609,8 +609,8 @@ header .icons #menu-bars {
 }
 
 .order form .inputBox .input input:focus,
-.order form .inputBox .input textarea:focus{
-  border:  .1rem solid var(--ggreen);
+.order form .inputBox .input textarea:focus {
+  border: 0.1rem solid var(--ggreen);
 }
 
 .order form .inputBox .input textarea {
@@ -624,7 +624,7 @@ header .icons #menu-bars {
 }
 /* order ends  */
 /* footer starts  */
-footer{
+footer {
   padding: 2rem 15rem;
 }
 footer .box-container {
@@ -633,39 +633,39 @@ footer .box-container {
   gap: 1.5rem;
 }
 
-footer .box-container .box h3{
-  padding: .5rem 0;
+footer .box-container .box h3 {
+  padding: 0.5rem 0;
   font-size: 2.5rem;
   color: var(--bblack);
 }
-footer .box-container .box a{
+footer .box-container .box a {
   display: block;
-  padding: .5rem 0;
+  padding: 0.5rem 0;
   font-size: 1.5rem;
   color: var(--llight-color);
-  transition: .2s ;
+  transition: 0.2s;
 }
 
-footer .box-container .box a:hover{
-  transition: .2s ;
+footer .box-container .box a:hover {
+  transition: 0.2s;
   color: var(--ggreen);
   text-decoration: underline;
 }
 
-footer .credit{
+footer .credit {
   text-align: center;
-  border-top: .1rem solid rgba(0, 0, 0, 0.1);
+  border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
   font-size: 2rem;
   color: var(--bblack);
-  padding: .5rem;
+  padding: 0.5rem;
   padding-top: 1.5rem;
   margin-top: 1.5rem;
 }
-footer .credit span{
+footer .credit span {
   color: var(--ggreen);
 }
 
-.loader-container{
+.loader-container {
   position: fixed;
   top: 0;
   left: 0;
@@ -678,15 +678,14 @@ footer .credit span{
   justify-content: center;
   overflow: hidden;
 }
-.loader-container img{
+.loader-container img {
   width: 35rem;
 }
 
-.loader-container.fade-out{
+.loader-container.fade-out {
   top: 110%;
   opacity: 0;
 }
-
 
 /* =============== media queries=========== */
 /* Large devices (laptops/desktops, 992px and up) */
@@ -773,7 +772,7 @@ footer .credit span{
   .order form .inputBox .input {
     width: 100%;
   }
-  footer{
-  padding: 2rem 4rem;
-}
+  footer {
+    padding: 2rem 4rem;
+  }
 }
