@@ -13,9 +13,9 @@
 
 html {
   font-size: 62.5%;
-  overflow-x: hidden;
+  /* overflow-x: hidden;
   scroll-padding-top: 5.5rem;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; */
 }
 
 /* =========== Variable css ============= */
